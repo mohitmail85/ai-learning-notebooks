@@ -1,0 +1,7 @@
+// Simple LangGraph Workflow
+digraph {
+	START [label=START color=lightblue shape=circle style=filled]
+	MODEL [label="MODEL
+(call_model)" color=lightgreen shape=box style=filled]
+	START -> MODEL
+}
